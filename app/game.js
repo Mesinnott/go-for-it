@@ -9,6 +9,9 @@ function GameController() {
 		var gc = this
 
 		gc.newGame = function () {
+			victory = false
+			gc.grid=buildGrid();
+
 		/**
 		 * set victory to false
 		 * gc.grid = buildGrid();
